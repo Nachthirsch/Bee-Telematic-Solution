@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# PT Bee Telematic Solutions - Corporate Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive corporate website built with React.js and Tailwind CSS, showcasing IT consulting and software development services.
 
-## Available Scripts
+## 🚀 Key Features
 
-In the project directory, you can run:
+- Responsive design with mobile-first approach
+- Smooth animations and transitions using Framer Motion
+- Dynamic type animations for enhanced user engagement
+- Interactive portfolio showcase with filtering capabilities
+- Service pages with detailed information and illustrations
+- Contact form with animated sections
+- Gradient-based modern UI design
 
-### `npm start`
+## 💻 Technical Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend Framework**: React.js
+- **Styling**: Tailwind CSS
+- **Animations**: 
+  - Framer Motion
+  - React Type Animation
+  - Anime.js
+- **Icons**: Lucide React
+- **State Management**: React Hooks
+- **Build Tool**: Vite (assumed based on modern React setup)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🎯 Core Functionalities
 
-### `npm test`
+- Dynamic service pages showcasing different IT solutions
+- Filtered portfolio display with search and category options
+- Animated components with smooth transitions
+- Responsive navigation system
+- Multi-language support (Indonesian/English)
+- Interactive UI elements with hover effects
+- Optimized performance with lazy loading
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🌟 Services Showcased
 
-### `npm run build`
+- Custom Software Development
+- Mobile App Development
+- UI/UX Design
+- System Integration
+- IT Consultation
+- Testing & Quality Assurance
+- Enterprise Software Solutions
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🔍 Project Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The project follows a component-based architecture with separate sections for:
+- Home components
+- Service components
+- Portfolio showcase
+- About section
+- Contact components
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🎨 Design Features
 
-### `npm run eject`
+- Consistent color scheme with amber/orange gradients
+- Professional typography with Poppins font family
+- Modern glassmorphism effects
+- Responsive grid layouts
+- Interactive cards and buttons
+- Animated bee logo
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Developed for PT Bee Telematic Solutions, showcasing their expertise in digital transformation and IT solutions.
