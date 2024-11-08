@@ -67,7 +67,7 @@ export default function HeroSection() {
                          animate-[fadeIn_0.8s_ease-out_0.6s_both]"
               >
                 <TypeAnimation
-                  sequence={["Bee Telematic Solutions", 1000, "Your Digital Partner", 1000, "Innovation Solutions", 1000, "Bee Telematic Solutions", 1000]}
+                  sequence={["Bee Telematic Solutions ", 1000, "Your Digital Partner ", 1000, "Innovation Solutions ", 1000, "Bee Telematic Solutions ", 1000]}
                   wrapper="span"
                   speed={30}
                   className="font-bold text-amber-800 relative inline-block after:content-[''] 
@@ -75,8 +75,8 @@ export default function HeroSection() {
                              after:bg-amber-800 after:origin-left after:scale-x-0 
                              after:transition-transform after:duration-300 
                              hover:after:scale-x-100"
-                />{" "}
-                hadir dalam mewujudkan transformasi digital yang sukses. Kami menawarkan solusi konsultasi yang komprehensif untuk membantu bisnis Anda mencapai efisiensi, inovasi, dan pertumbuhan yang berkelanjutan.
+                />
+                 {" "}hadir dalam mewujudkan transformasi digital yang sukses. Kami menawarkan solusi konsultasi yang komprehensif untuk membantu bisnis Anda mencapai efisiensi, inovasi, dan pertumbuhan yang berkelanjutan.
               </p>
 
               <div className={`flex gap-4 items-center animate-[fadeIn_0.8s_ease-out_0.9s_both]`}>
@@ -148,45 +148,6 @@ export default function HeroSection() {
           </div>
         </div>
       </div>
-
-      {/* Add keyframe animations */}
-      <style jsx>{`
-        @keyframes float {
-          0%,
-          100% {
-            transform: translateY(0);
-          }
-          50% {
-            transform: translateY(-20px);
-          }
-        }
-
-        @keyframes slideDown {
-          from {
-            transform: translateY(-20px);
-            opacity: 0;
-          }
-          to {
-            transform: translateY(0);
-            opacity: 1;
-          }
-        }
-
-        @keyframes fadeIn {
-          from {
-            opacity: 0;
-          }
-          to {
-            opacity: 1;
-          }
-        }
-
-        @keyframes shimmer {
-          100% {
-            transform: translateX(100%);
-          }
-        }
-      `}</style>
     </section>
   );
 }

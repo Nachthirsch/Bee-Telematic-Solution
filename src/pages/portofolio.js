@@ -36,17 +36,14 @@ const Portfolio = () => {
           animate={{ opacity: 1, y: 0 }}
           className="text-center space-y-4 mb-16"
         >
-          <h1 className="text-4xl md:text-5xl font-bold text-black">
-            Featured Projects
-          </h1>
-          <p className="text-base md:text-lg text-amber-800 max-w-2xl mx-auto">
+          <h1 className="text-4xl md:text-5xl font-bold text-black mb-10">
             <TypeAnimation
               sequence={[
-                'Jelajahi koleksi solusi inovatif kami',
+                'Featured Projects',
                 1000,
-                'Temukan implementasi kreatif terbaik',
+                'Proyek Unggulan',
                 1000,
-                'Wujudkan ide Anda bersama kami',
+                'Karya Terbaik',
                 1000,
               ]}
               wrapper="span"
@@ -54,6 +51,9 @@ const Portfolio = () => {
               repeat={Infinity}
               style={{ display: 'inline-block' }}
             />
+          </h1>
+          <p className="text-base md:text-lg text-black max-w-2xl mx-auto">
+            Jelajahi koleksi solusi inovatif kami untuk mewujudkan ide kreatif Anda
           </p>
         </motion.div>
 
