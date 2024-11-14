@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { IoCloseOutline } from "react-icons/io5";
+import navIcon from '../assets/nav-icon.png';
 
 // Navigation items configuration
 const NAV_ITEMS = [
@@ -21,15 +22,17 @@ const NAV_ITEMS = [
 // Reusable components
 const Logo = () => (
   <div className="relative group">
-    <div className="absolute inset-0 bg-yellow-500 rounded-lg blur-md opacity-50 group-hover:opacity-75 transition-opacity duration-300"></div>
-    <div className="relative w-12 h-12 bg-gray-900 rounded-lg flex items-center justify-center overflow-hidden">
-      <span className="text-yellow-500 font-bold text-xl">BT</span>
-      <div
-        className="absolute inset-0 bg-gradient-to-r from-yellow-500/0 via-yellow-500/30 to-yellow-500/0 
-                      opacity-0 group-hover:opacity-100 transition-opacity
-                      -translate-x-full group-hover:translate-x-full transform duration-1000"
-      ></div>
-    </div>
+    {/* Outer glow effect */}
+    <div className="absolute inset-0 bg-yellow-500/50 rounded-2xl blur-xl opacity-40 group-hover:opacity-70 
+                    group-hover:blur-2xl transition-all duration-300"></div>
+    
+    {/* Main container */}
+    <img 
+      src={navIcon} 
+      alt="Navigation Icon" 
+      className="w-20 h-20 object-contain transform group-hover:scale-110 
+                 group-hover:rotate-3 transition-all duration-300"
+    />
   </div>
 );
 

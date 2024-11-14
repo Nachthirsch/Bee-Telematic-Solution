@@ -5,6 +5,8 @@ import LoadingSpinner from '../components/LoadingSpinner';
 import NotFound from '../pages/NotFound';
 import routes from './routeConfig';
 
+
+
 export const AppRoutes = () => {
   return (
     <Suspense fallback={<LoadingSpinner />}>
@@ -21,6 +23,15 @@ export const AppRoutes = () => {
           
           {/* Services Routes */}
           {routes.services.map((route) => (
+            <Route
+              key={route.path}
+              path={route.path}
+              element={<route.component />}
+            />
+          ))}
+          
+          {/* Projects Routes */}
+          {routes.projects.map((route) => (
             <Route
               key={route.path}
               path={route.path}

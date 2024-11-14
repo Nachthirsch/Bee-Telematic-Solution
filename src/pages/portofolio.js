@@ -117,7 +117,7 @@ const Portfolio = () => {
                   </div>
                   <div className="absolute bottom-0 right-0 p-6">
                     <motion.a
-                      href={project.link}
+                      href={`/projects/${project.id}`}
                       className="inline-flex items-center gap-1.5 text-amber-800 hover:text-amber-900 text-sm font-medium group/link"
                       whileHover={{ x: 5 }}
                     >

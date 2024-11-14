@@ -64,6 +64,12 @@ const routes = {
       path: '/services/testing-qa',
       component: lazy(() => import('../pages/services/tqa')),
     }
+  ],
+  projects: [
+    {
+      path: '/projects/:id',
+      component: lazy(() => import('../pages/projects/[id]')),
+    }
   ]
 };
 
