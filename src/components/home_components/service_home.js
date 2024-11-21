@@ -149,8 +149,8 @@ const ServiceHome = () => {
   ];
 
   return (
-    <>
-      <div className="max-w mx-auto px-4 md:px-6 bg-amber-50 py-20 relative">
+    <div className="w-full bg-amber-50 py-20">
+      <div className="max-w-7xl mx-auto px-4 md:px-6">
         <motion.section ref={ref} initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
           {/* Header text */}
           <div className="text-center mb-12 font-poppins">
@@ -198,7 +198,7 @@ const ServiceHome = () => {
           </div>
         </motion.section>
       </div>
-    </>
+    </div>
   );
 };
 

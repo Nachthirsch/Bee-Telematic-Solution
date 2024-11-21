@@ -25,7 +25,7 @@ export default function CardsSection() {
   ];
 
   return (
-    <section className="py-16 bg-amber-50">
+    <section className="w-full bg-amber-50 py-16">
       <div className="max-w-7xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {cardData.map((card, index) => (

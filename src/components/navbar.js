@@ -83,7 +83,7 @@ const DropdownMenu = ({ items }) => (
 const MobileMenuButton = ({ isOpen, onClick }) => (
   <button 
     onClick={onClick} 
-    className="md:hidden relative w-10 h-10 text-white group flex items-center justify-center"
+    className="md:hidden relative w-10 h-10  text-white group flex items-center justify-center"
     aria-label="Toggle mobile menu"
   >
     <div className="relative transition-all duration-300 text-2xl">

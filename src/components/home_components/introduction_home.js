@@ -12,7 +12,7 @@ export default function HeroSection() {
   }, []);
 
   return (
-    <div className="relative min-h-screen">
+    <div className="relative min-h-screen h-full">
       {/* Background container with blur */}
       <div 
         className="absolute inset-0 z-0"
