@@ -57,6 +57,9 @@ export const ProjectDetail = ({ project }) => {
           </div>
 
           {project.images && (
+            typeof project.images === 'string' || 
+            (typeof project.images === 'object' && project.images.src)
+          ) && (
             <div className="mb-12 group">
               <motion.div
                 initial={{ opacity: 0, scale: 0.95 }}
@@ -64,12 +67,15 @@ export const ProjectDetail = ({ project }) => {
                 className="relative overflow-hidden rounded-2xl ring-1 ring-amber-100"
               >
                 <motion.img
-                  src={project.images[0]}
+                  src={typeof project.images === 'string' ? project.images : project.images.src}
                   alt={project.title}
                   initial={{ scale: 1.2 }}
                   animate={{ scale: 1 }}
                   transition={{ duration: 1, ease: 'easeOut' }}
                   className="w-full h-[500px] object-cover transition-transform duration-700 group-hover:scale-105"
+                  onError={(e) => {
+                    e.target.src = '/fallback-image.png';
+                  }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 <motion.div 
